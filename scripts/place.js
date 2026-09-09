@@ -3,8 +3,8 @@ const lastModified = document.getElementById("lastModified");
 const windChill = document.getElementById("wind-chill");
 const windChillLarge = document.getElementById("wind-chill-large");
 
-const temparatureInput = 28;
-const windSpeedInput = 14;
+const temparatureInput = 23;
+const windSpeedInput = 17;
 
 function calculateWindChill(temperature, windSpeed) {
   if (temperature <= 10 && windSpeed > 4.8) {
